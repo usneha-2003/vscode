@@ -1,0 +1,12 @@
+
+      .link {
+        color: blue;
+        font-family: Roboto;
+        transition: color 2s, opacity 2s;
+      }
+      .link:hover {
+        color: pink;
+      }
+      .link:active {
+        opacity: 0.5;
+      }

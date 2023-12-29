@@ -1,0 +1,89 @@
+<html >
+  <head>
+    <title>Document</title>
+    <style>
+      p {
+        font-weight: bold;
+        font-size: 25px;
+      }
+      .cat {
+        font-size: 15px;
+        font-weight: 100;
+      }
+      .content {
+        color: blue;
+        text-decoration: underline;
+        font-size: 15px;
+      }
+      .catphoto {
+        height: 300px;
+        
+      }
+      .h3{
+        font-size: 20px;
+      }
+      .codecamp{
+        color: purple;
+        text-decoration: underline;
+        font-size: 15px;
+      }
+      .cbullet{
+        height: 300px;
+        width: 450px;
+        padding-left: 25px;
+        
+      }
+      .space{
+        padding-left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <p class="h2">Cat Photos</p>
+    <p class="cat">
+      See more <span class="content">cat photos</span> in our gallery
+    </p>
+    <img class="catphoto" src="relaxing-cat.jpg" />
+    <p class="h2" >Cat Lists
+       
+    </p>
+    <p class ="h3">Things cats love:</p>
+    <p class="cat">
+        <ul>
+            <li>cat nip</li>
+            <li>laser points</li>
+            <li>lasanga</li>
+        </ul>
+    </p>
+    <img class="cbullet" src="lasagna.jpg" ><br><span class="space">cats <i>love</i> lasanga</span>
+
+    <p class="h3">Top 3 things cats hate:</p>
+    <p class="cat">
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+    </p>
+    <img class="cbullet" src="group.jpg"><br><span class="space">Cats <b>hate</b> other cats.</span>
+
+    <p class="h2">Cat Form</p><form>
+      <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+      </fieldset>
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+
+        <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+        <input id="lazy" type="checkbox" name="personality" value="lazy" checked > <label for="lazy">Lazy</label>
+        <input id="energetic" type="checkbox" name="personality" value="energetic" checked > <label for="energetic">Energetic</label>
+      </fieldset>
+      <br>
+    <input class="catform" type="text" placeholder="cat photo URL">
+    <button>Submit</button>
+    <p class="cat">No Copyright -<span class="codecamp">freeCodeCamp.org</span></p>
+  </body>
+</html>
